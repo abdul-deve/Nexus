@@ -6,5 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "django==5.2",
+    "django-allauth>=65.19.3",
     "djangorestframework>=3.18.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "py-tree>=1.0.1",
+    "python-decouple>=3.8",
+    "uuid>=1.30",
 ]
